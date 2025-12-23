@@ -57,7 +57,8 @@
   },
   "homepage": "https://deva.space/devas/communication",
   "dependencies": {
-    "@indra.ai/deva": "^1.30.2"
+    "@indra.ai/deva": "^1.30.2",
+    "@indra.ai/deva.socket": "^0.8.31"
   },
   "data": {
     "agent": {

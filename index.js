@@ -11,6 +11,8 @@ import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
 const {agent,vars} = pkg.data;
 
+import socket from '@indra.ai/deva.socket';
+
 // set the __dirname
 import {dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';    
@@ -42,6 +44,9 @@ const CommunicationDeva = new Deva({
   },
   listeners: {},
   modules: {},
+  devas: {
+    socket,
+  }
   func: {},
   methods: {},
   onInit(data, resolve) {
