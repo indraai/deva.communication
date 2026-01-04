@@ -7,11 +7,12 @@
 // Medical Deva
 
 import Deva from '@indra.ai/deva';
-
+import socket from '@indra.ai/deva.socket';
+// import chat from '@indra.ai/deva.chat';
+import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js'
 import pkg from './package.json' with {type:'json'};
 const {agent,vars} = pkg.data;
 
-import socket from '@indra.ai/deva.socket';
 
 // set the __dirname
 import {dirname} from 'node:path';
@@ -46,7 +47,8 @@ const CommunicationDeva = new Deva({
   modules: {},
   devas: {
     socket,
-  }
+    chat,
+  },
   func: {},
   methods: {},
   onInit(data, resolve) {
