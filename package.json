@@ -33,6 +33,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "latest": "npm i @indra.ai/deva@latest --save",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -46,8 +47,8 @@
     "Deva.space",
     "Deva.cloud",
     "Deva.world",
-    "Quinn A Michaels",
     "Quinn Michaels",
+    "Quinn A Michaels",
     "Inside The Net, Inc.",
     "Throwing Pigment™",
     "bleuBrain"
@@ -57,7 +58,7 @@
   },
   "homepage": "https://deva.space/devas/communication",
   "dependencies": {
-    "@indra.ai/deva": "^1.32.0",
+    "@indra.ai/deva": "^1.33.0",
     "@indra.ai/deva.chat": "^0.8.0",
     "@indra.ai/deva.socket": "^0.8.31"
   },
@@ -89,7 +90,7 @@
         "subtitle": "Taking care of communication issues",
         "describe": "Communication Deva is responsible for handling communications in Deva.world.",
         "tweet": "Communication Deva is responsible for handling communication issues in Deva.world.",
-        "hashtags": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DevaWorld #CommunicationDeva #VegasStrong",
+        "hashtags": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DevaWorld #Communication #CommunicationDeva #CommunicationPRIME",
         "mention": "@SunriseLasVegas",
         "pronouns": "He, Him, His",
         "gender": "DEVA",
@@ -107,7 +108,7 @@
         "creator": "Quinn A Michaels",
         "copyright": "Copyright ©2000-2026 Quinn A Michaels; All rights reserved.",
         "created": "Thursday, December 18, 2025 - 11:02:05 AM",
-        "updated": "Wednesday, January 7, 2026 - 7:08:40 PM"
+        "updated": "Monday, January 26, 2026 - 2:55:32 PM"
       }
     },
     "vars": {
