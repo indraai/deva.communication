@@ -33,7 +33,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "latest": "npm i @indra.ai/deva@latest --save",
+    "latest": "npm i @indra.ai/deva@latest @indra.ai/deva.socket@latest @indra.ai/deva.chat@latest --save",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -60,7 +60,7 @@
   "dependencies": {
     "@indra.ai/deva": "^1.33.0",
     "@indra.ai/deva.chat": "^0.8.0",
-    "@indra.ai/deva.socket": "^0.8.31"
+    "@indra.ai/deva.socket": "^0.8.33"
   },
   "data": {
     "agent": {
@@ -88,7 +88,7 @@
         "hashtag": "#CommunicationDeva",
         "title": "Communication Deva",
         "subtitle": "Taking care of communication issues",
-        "describe": "Communication Deva is responsible for handling communications in Deva.world.",
+        "describe": "Developed by Quinn A Michaels the Communication Deva is responsible for handling communications in Indra.ai and Deva.world platforms. Managing the main communications relays with other Devas such as Socket Deva and Chat Deva for communication with external services.",
         "tweet": "Communication Deva is responsible for handling communication issues in Deva.world.",
         "hashtags": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DevaWorld #Communication #CommunicationDeva #CommunicationPRIME",
         "mention": "@SunriseLasVegas",

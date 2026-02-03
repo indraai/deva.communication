@@ -7,7 +7,5 @@
 ::BEGIN:MAIN
 # {{profile.name}}
 
-{{profile}}
-
 copyright: {{profile.copyright}}
 ::END:MAIN
