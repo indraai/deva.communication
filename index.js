@@ -7,8 +7,9 @@
 
 
 import Deva from '@indra.ai/deva';
-import socket from '@indra.ai/deva.socket';
+// import socket from '@indra.ai/deva.socket';
 // import chat from '@indra.ai/deva.chat';
+import socket from '/Users/quinnmichaels/Dev/deva.space/devas/deva.socket/index.js'
 import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js'
 import pkg from './package.json' with {type:'json'};
 const {agent,vars} = pkg.data;

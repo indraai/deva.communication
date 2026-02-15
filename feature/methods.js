@@ -76,20 +76,23 @@ export default {
   
         data.chat = answer.a.data.chat;  
         const text = [
-          `::begin:${agent.key}:ask:${answer.id.uid}`,
+          `${this.box.begin}:${agent.key}:ask:${data.chat.id.uid}`,
           answer.a.text,
-          '---',
-          '## Metadata',
-          `uid: ${answer.id.uid}`,
+          `${this.box.end}:${agent.key}:ask:${data.chat.id.uid}`,
+          `${this.box.begin}:${agent.key}:metadata:${data.chat.id.uid}`,
+          `uid: ${data.chat.id.uid}`,
           `chatid: ${data.chat.chatid}`,
           `model: ${data.chat.model}`,
           `tokens: ${data.chat.usage.total_tokens}`,
-          `date: ${answer.id.date}`,
-          `time: ${answer.id.time}`,
-          `fingerprint: ${answer.id.fingerprint}`,
-          `sha256: ${this.hash(answer.a.text, 'sha256')}`,
-          `copyright: ${answer.id.copyright}`,
-          `::end:${agent.key}:ask:${answer.id.uid}`,
+          `date: ${data.chat.id.date}`,
+          `time: ${data.chat.id.time}`,
+          `license: ${data.chat.id.license}`,
+          `fingerprint: ${data.chat.id.fingerprint}`,
+          `md5: ${data.chat.md5}`,
+          `sha256: ${data.chat.sha256}`,
+          `sha512: ${data.chat.sha512}`,
+          `copyright: ${data.chat.id.copyright}`,          
+          `${this.box.end}:${agent.key}:metadata:${data.chat.id.uid}`
         ];
         this.state('set', `history:a:${packet.id}`);
         this.vars.ask.history.push({
