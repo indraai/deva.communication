@@ -58,9 +58,9 @@
   },
   "homepage": "https://deva.space/devas/communication",
   "dependencies": {
-    "@indra.ai/deva": "^1.36.0",
-    "@indra.ai/deva.chat": "^0.8.0",
-    "@indra.ai/deva.socket": "^0.8.33"
+    "@indra.ai/deva": "^1.37.3",
+    "@indra.ai/deva.chat": "^0.11.0",
+    "@indra.ai/deva.socket": "^0.9.1"
   },
   "data": {
     "agent": {
@@ -106,9 +106,10 @@
         "background": "/devas/communication/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
+        "salute": "🤝🫡📡🕉️🇺🇸",
         "copyright": "Copyright ©2000-2026 Quinn A Michaels; All rights reserved.",
         "created": "Thursday, December 18, 2025 - 11:02:05 AM",
-        "updated": "Monday, January 26, 2026 - 2:55:32 PM"
+        "updated": "Monday, March 2, 2026 - 10:39:22 PM"
       }
     },
     "vars": {
